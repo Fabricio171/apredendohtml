@@ -1,0 +1,19 @@
+body{
+    background-color: #fcfcfc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    padding: 5px;
+    border-top: #764e36 solid;    
+    border-bottom: #764e36 solid;
+    color: #764e36;
+
+}
+h2 {
+   background-color: #764e36; 
+   color: #fcfcfc;
+}
+img {
+    border: 5px #764e36 solid;
+    padding: 10px;
+}

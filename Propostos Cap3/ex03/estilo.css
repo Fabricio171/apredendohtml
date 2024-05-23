@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    background-color: #7faeb7;
+}
+a:hover {
+    color: #ffa700;
+}
+a:visited {
+    color: #c9e0e5;
+}
+a {
+    text-decoration: none;
+    color: #004552;
+}
+hr {
+   border: #7faeb7 solid ;
+}
+img:hover {
+    border: 5px solid #ffa700;
+}

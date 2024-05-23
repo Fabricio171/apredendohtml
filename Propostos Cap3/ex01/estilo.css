@@ -3,6 +3,7 @@ body {
     font-family: Arial;
     background-image: url(cabecalhos_back.png);
     background-repeat: repeat-y;
+    margin-left: 10%;
 }
 h1 {
     color: #906718;
