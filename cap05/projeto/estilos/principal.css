@@ -1,41 +1,150 @@
-h1 {
-    color: #C0262C;
-	font-size: 2.5em; /* 40/16=2.5 */
-border-bottom: #C0262C solid thin;
-padding-bottom: 7px;
 
-}
-
-h2 {
-    font-size: 1.75em; /* 28/16=1.75 */
-    background: #c0262c url(../multimidia/back-bolinha.gif) repeat top center;
-    color: #fff;
-    letter-spacing: .1em; /*espaçamento das letras*/
-    padding: 7px;
-    width: 316px;
-}
-
-
-p { 	
-font-size: 1.1em; 	
-line-height: 1.3em; 	
-text-align: justify; 
-}
-
-p:first-line { /*aplica no primeiro elemento da linha do nivel de um bloco*/
-font-size: 1.17em;
-font-variant: small-caps; /*todas as letras em mininusculas sao covertido em maiusculas*/
-font-weight: bolder;
-font-style: italic;
-}
-
-hr {
-border-color: #C0262C;
+body {
+    width: 1000px;
+    margin-left: auto ;
+    margin-right: auto;
 }
 
 body { 	
-font-family: Helvetica, Arial, sans-serif; 
+    font-family: Helvetica, Arial, sans-serif; 
+    }
+
+header h1 {
+    width: 240px;
+    float: left;
+    background-image: url(../multimidia/meu-amigo-cao-petshop-header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+    text-indent: -1000px;
+    margin-bottom: 0% ;
+
 }
+header #anuncio {
+    width: 510px;
+    float: left;
+    margin: 80px auto auto;
+    padding-top: 0px;
+}
+header section {
+    padding-top: 70px;
+}
+header section a[href="boletim.html"]{
+    border: solid #C0262C thin;
+    padding: 15px;
+    border-radius: 15px;
+    color: #c0262c;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+header section figure {
+    width: 100%; /*Edita o tamanho de um conteudo*/
+    margin: 0px; /*define o espaço externo ao redor de um elemento. */
+}
+header section p {
+    color: #999;
+    margin: 33px auto 7px;
+}
+
+header section a {
+    padding: 25px 5px 0;
+    border: none;
+}
+header section figure a:first-child {
+    padding: 25px 5px 0 0;
+}
+header section figure a:last-child {
+    padding: 25px 0 0 5px;
+}
+
+/*estrutura de nevegacao*/
+
+nav {
+    background-color: #000;
+    overflow: auto;
+    clear: both;
+    margin-top: 10px;
+}
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 1px;
+}
+nav ul li {
+    float: left;
+}
+nav ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 50px;
+    line-height: 2em;
+}
+#inicial a[href="index.html"],
+#quemSomos a[href="quem-somos.html"],
+#produtos a[href="produtos.html"],
+#banhoEtosa a[href="banho-e-tosa.html"],
+#curiosidades a[href="curiosidade.html"]{
+    background-color: #c0262c;
+}
+#inicial aside {
+    width: 230px;
+    float: left;
+    margin-top: 30px;
+}
+#inicial main {
+    width: 490px;
+    float: left;
+    margin: 30px 25px 10px;
+} 
+/*testos na area principal*/
+
+main h1 {
+    color: #C0262C;
+    font-size: 2.5em;
+    border-bottom: #C0262C solid thin;
+    padding-bottom: 7px;
+}
+main h2 {
+    font-size: 1.75em;
+    background: #C0262C url(../multimidia/back-bolinha.gif) repeat top center;
+    color: #fff;
+    letter-spacing: .1em;
+    padding: 7px;
+    width: 316px;
+}
+main p {
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-align: justify;
+}
+main h2+p:first-line {
+    font-size: 1.17em;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-style: italic;
+}
+main hr {
+    border-color: #C0262C;
+}
+/* rodapé */
+
+footer {
+    clear:both;
+    border-top: 7px solid #999;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+footer p {
+    margin: 0px;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+ 
+/*estrutura*/
  /* paginas de produtos */
  table {
     border-collapse: collapse; /*usada para especificar se as bordas das células da tabela devem ser recolhidas em uma única borda ou não
@@ -150,6 +259,37 @@ input#nome, input#email {
     font-size: 1.2em;
     border: #000 solid 1px;
 }
+#banhoEtosa fieldset label.labelSimples {
+    display:  inline;
+    float: none;
+}
+#banhoEtosa p {
+    text-align: left;
+}
+#banhoEtosa p:first-line {
+    font-size: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+}
+#banhoEtosa main h2 {
+    background: #fef84f url(../multimidia/postit.jpg) no-repeat top left;
+    color: #000;
+    padding: 35px;
+    width: 207px;
+    height: 115px;
+    font-size: 1.3125em;
+    letter-spacing: .07em;
+}
+
+/* pagina quem-Somos */
+#quemSomos main img {
+    float: left;
+    margin: 0 20px 20px 0;
+    padding: 10px;
+    border: solid #C0262C thin;
+    background-color: #fff;
+}
 input[type="submit"] {
     background-color: #c0262c;
     background:  linear-gradient(to border, #6b1516 0% , #c0262c 30%, #c0262c 70%, #6b1516 100%);
@@ -162,4 +302,80 @@ input[type="submit"] {
     text-shadow: 2px 2px 5px #000;
     cursor: pointer;
 
+}
+/*pagina obridado*/
+
+#obrigado main p img {
+    float: left;
+    margin: 0 20px 20px 0;
+    padding: 10px;
+    border: solid #c0262c thin;
+    background-color: #fff;
+}
+#destaqueObrigado {
+    position: relative;
+    border: solid #c0262c 1px;
+    border-radius: 0 25px;
+    padding: 5px 25px;
+    margin: 20px 0;
+}
+#obrigado #lacinho {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+/*transicao em caixa - 3caixa de 163X230*/
+.anuncioAnime {
+    margin: 0 0 10px;
+    padding: 0;
+    overflow: auto;
+}
+.anuncioAnime .boxAnuncio {
+    width: 163px; 
+    height: 230px;
+    border-bottom: solid thin #C0262C;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.anuncioAnime .boxAnuncio p {
+    text-align: center;
+    font-size: .95em;
+    line-height: 1.3em;
+    background-color: rgba(255, 255, 255, 1);
+    border-left: solid thin #c0262c;
+    border-right: solid thin #C0262C;
+    margin: 0;
+    padding: 7px 15px;
+    position: absolute;
+    bottom: -80px; 
+    left: 0;
+    transition: 1s linear 0.1s;
+    cursor: default;
+}
+.anuncioAnime .boxAnuncio p:first-line {
+    font-size: 1.1em;
+    font-variant: inherit;
+    font-style: normal;
+    font-weight: bolder;
+    color: #c0262c;
+    padding: 0;
+}
+.anuncioAnime .boxAnuncio p:hover {
+    background-color: rgb(255, 255, 255, 0.7);
+    bottom: 0;
+}
+/*controle de audio*/
+
+aside audio {
+    width: 230px;
+
+}
+aside video {
+    width: 230;
 }
