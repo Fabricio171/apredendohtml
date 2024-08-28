@@ -1,0 +1,34 @@
+___________________________
+  Hierarquia de Estilo
+___________________________
+
+A Hierarquia refere-se a sigla da letra C: "cascata". O ID e class sao uma referencia de qual 
+elemento ele vai modificar.
+
+O identificador do é "#" e da class ".".
+EX:         #titulo         <-- id: vc usa quando for modificar um elemento da pagina.
+            .titulos        <-- class: voce pode usar o mesmo seletor varias veses.
+
+Voce pode usar usar a mesma tag como seletor             
+
+::marker        <-- ele modifica o ponto da lista nao ordenada e tambem modifica os numeros da lista ordenada. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
