@@ -4,6 +4,7 @@
 h3{
     color: #1a6868;
 }
+
 li::marker{
     color: #1a6868;
     font-weight: bold;
@@ -19,9 +20,12 @@ li > input[type="checkbox"], li > p{
     display: inline;
 }
 li > p{
-    color: black !important;
+    color: rgb(15, 15, 15) ;
 }
-
 h1 {
     color: #12787c;
+}
+
+#texto__destaque{
+    color:red;
 }
